@@ -1,0 +1,7 @@
+C:\Users\ulise\source\repos\FPU3C_Ejemplo1\bin\Debug\FPU3C_Ejemplo1.exe.config
+C:\Users\ulise\source\repos\FPU3C_Ejemplo1\bin\Debug\FPU3C_Ejemplo1.exe
+C:\Users\ulise\source\repos\FPU3C_Ejemplo1\bin\Debug\FPU3C_Ejemplo1.pdb
+C:\Users\ulise\source\repos\FPU3C_Ejemplo1\obj\Debug\FPU3C_Ejemplo1.csproj.AssemblyReference.cache
+C:\Users\ulise\source\repos\FPU3C_Ejemplo1\obj\Debug\FPU3C_Ejemplo1.csproj.CoreCompileInputs.cache
+C:\Users\ulise\source\repos\FPU3C_Ejemplo1\obj\Debug\FPU3C_Ejemplo1.exe
+C:\Users\ulise\source\repos\FPU3C_Ejemplo1\obj\Debug\FPU3C_Ejemplo1.pdb
