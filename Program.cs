@@ -88,6 +88,15 @@ namespace FPU3C_Ejemplo1
             //-----
             Console.WriteLine("Ingresa con número las horas por semana del maestro ");
             numeroHoras = Convert.ToByte( Console.ReadLine());
+
+            //if para el requerimiento 3
+            if (numeroHoras < 3 || numeroHoras > 40)
+            {
+                Console.WriteLine("Incumplimiento de horas, vuelve a realizar el proceso");
+                Thread.Sleep(3000);
+                return;
+            }
+
             //SWITCH
             switch (categoria)
             {
