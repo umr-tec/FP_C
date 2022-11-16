@@ -93,17 +93,27 @@ namespace FPU3C_Ejemplo1
             {
                 case "A":
                     pagoTotal = (pagoTotal * numeroHoras) * 1.0048;
-                    Console.WriteLine(pagoTotal);
+                    Console.WriteLine("El maestro de nombre: {0}, con categoria {1}, y un total" +
+                        "de {2} horas a la semana, tendrá una remuneración de ${3}, " +
+                        "quincenal." ,nombre,categoria,numeroHoras,pagoTotal*2);
+                    
                     break;
                 case "B":
                     pagoTotal = (pagoTotal * numeroHoras) * 1.0063;
-                    Console.WriteLine(pagoTotal);
+                    Console.WriteLine("El maestro de nombre: {0}, con categoria {1}, y un total" +
+                       "de {2} horas a la semana, tendrá una remuneración de ${3}, " +
+                       "quincenal.", nombre, categoria, numeroHoras, pagoTotal*2);
+                    
                     break;
                 case "C":
                     pagoTotal = (pagoTotal * numeroHoras) * 1.0098;
-                    Console.WriteLine(pagoTotal);
+                    Console.WriteLine("El maestro de nombre: {0}, con categoria {1}, y un total" +
+                       "de {2} horas a la semana, tendrá una remuneración de ${3}, " +
+                       "quincenal.", nombre, categoria, numeroHoras, pagoTotal*2);
+                   
                     break;
                 default:
+                    Console.WriteLine("La categoria seleccionada no existe, selecciona una valida");
                     break;
             }
 
@@ -115,6 +125,13 @@ namespace FPU3C_Ejemplo1
             Thread.Sleep(1000);
             Console.WriteLine("Saliendo del sistema....");
             Thread.Sleep(1000);
+
+            /*
+                Participaciones:
+                +: Oliver
+
+                -: Fernando, Jesaias
+             */
         }
     }
 }
